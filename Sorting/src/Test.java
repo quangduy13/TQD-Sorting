@@ -35,6 +35,8 @@ public class Test {
 			bubble.bubbleSort(list);
 			break;
 		case 4:
+			Quick quick = new Quick();
+			quick.sort(list);
 			break;
 
 		}
